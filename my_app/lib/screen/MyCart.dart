@@ -14,7 +14,6 @@ class MyCart extends StatelessWidget {
         children: [
           getItems(context),
           computeCost(),
-          //const Divider(height: 4, color: Colors.black),
           Flexible(
                   child: Center(
                       child: Row(
